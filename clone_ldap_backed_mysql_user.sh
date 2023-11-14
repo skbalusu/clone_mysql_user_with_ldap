@@ -101,7 +101,7 @@ for host in $hosts; do
 
     # Display the grants for the new user
     echo
-    echo "Grants for $new_user on $host:"
+    echo "Grants for $new_user tied to $host:"
     echo "$new_grants"
 
     # Execute the grants for the new user on the current host
